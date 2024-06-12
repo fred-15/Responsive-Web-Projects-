@@ -1,0 +1,61 @@
+:root {
+    --mont: 'Montserrat';
+    --pop: 'Poppins'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   font-family: var(--mont);
+}
+
+/* =========Navbar section==========*/
+.navbar{
+    background-color: #34495e !important;
+    border-bottom: none !important;
+    border-color: transparent !important;
+}
+
+.navbar .nav-link{
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link:hover{
+    color: deepskyblue !important;
+    transition: all ease-in 0.5s;
+}
+
+.navbar-toggler {
+ border: 1px solid white !important;
+}
+
+.navbar-toggler:hover{
+    color: deepskyblue !important;
+    transition: all ease-in 0.5s;
+}
+
+.location-btn{
+    border: 1px solid white;
+    border-radius: 50px;
+    
+}
+/* .nav-btn{
+    border-radius: 60px;
+    font-size: 5px !important;
+    text-align: center;
+    padding: 2px 5px;
+    background-color: transparent;
+    border-color: 1px solid white !important;
+   
+} */
+
+/* .nav-btn:hover{
+    background-color: transparent !important;
+} */
+/* =======Navbar Ends============== */
