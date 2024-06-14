@@ -132,6 +132,11 @@
     text-decoration: none;
 }
 
+.social-networks .fa-facebook-f{
+    width: 40px !important;
+}
+
+
 .social-networks .fa-brands:hover{
     background-color: deepskyblue;
     border-color: 1px white;
@@ -143,3 +148,4 @@
     border-color: 1px white;
     transition: all ease-in 0.6s;
 }
+
