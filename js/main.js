@@ -9,5 +9,12 @@ $(function(){
         interactive: true
 
     });
+
+    var typed = new Typed('.text-animation', {
+        strings: [' <strong>I love</strong> <strong class="primary">coding.</strong> ', 
+        '<strong>and to</strong> <strong class ="primary">share!!</strong> '],
+        typeSpeed: 20,
+      });
 });
+
 

@@ -149,3 +149,63 @@
     transition: all ease-in 0.6s;
 }
 
+.slider .text-animation, .typed-cursor{
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.primary{
+    color: orangered;
+}
+
+.typed-cursor{
+    opacity: 1;
+    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
